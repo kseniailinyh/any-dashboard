@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Чемпионат по всему</title>
+	<style>
+		* {
+			font-family: Helvetica Neue;
+			color: #333;
+			margin: 0 0;
+		}
+
+		body {
+			margin: 50px 100px 0 40px;
+		}
+		
+		.gap-m {
+			margin-top: 40px;
+		}
+
+		.gap-s {
+			margin-top: 20px;
+		}
+		
+		.gap-xs {
+			margin-top: 10px;
+		}
+
+		.gray {
+			color: #aeaeae;	
+			font-weight: 600;
+		}
+		
+		.top {
+			display: inline-block;
+			margin-right: 80px;
+		}
+
+		.top:last-child {
+			margin-right: 0;
+		}
+
+		.flip {
+			-moz-transform: scaleX(-1);
+	        -o-transform: scaleX(-1);
+	        -webkit-transform: scaleX(-1);
+	        transform: scaleX(-1);
+	        filter: FlipH;
+	        -ms-filter: "FlipH";
+		}
+		
+		.street-fighter {
+			width: 800px;
+		}
+
+		.emoji {
+			font-size: 80px;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="title-1">Чемпионат по всему</h1>
+	
+	<div class="top">
+
+		<h2 class="gap-m">🏆 ТОП игроков по очкам</h2>
+
+		<ol class="gap-xs top">
+			<li>Ксюша Ильиных <span class="gray">140</span></li>
+			<li>Игорь Луканин <span class="gray">120</span></li>
+			<li>Леша Кирпичников <span class="gray">100</span></li>
+			<li>Игорь Чевдарь <span class="gray">95</span></li>
+			<li>Катя Мохова <span class="gray">90</span></li>
+		</ol>		
+	</div>
+
+	<div class="top">
+
+		<h2 class="gap-m">⚽️ ТОП игроков по играм</h2>
+
+		<ol class="gap-xs top">
+			<li>Ксюша Ильиных <span class="gray">11</span></li>
+			<li>Игорь Луканин <span class="gray">10</span></li>
+			<li>Леша Кирпичников <span class="gray">10</span></li>
+			<li>Игорь Чевдарь <span class="gray">9</span></li>
+			<li>Катя Мохова <span class="gray">9</span></li>
+		</ol>		
+	</div>
+
+	<div class="top">
+
+		<h2 class="gap-m">❤️️ Лучшие игры</h2>
+
+		<ol class="gap-xs top">
+			<li>Камень-ножницы-бумага <span class="gray">5</span></li>
+			<li>Крестики-нолики <span class="gray">5</span></li>
+			<li>Балансборд <span class="gray">4</span></li>
+			<li>Полтора литра <span class="gray">4</span></li>
+			<li>Забег на 1 километр <span class="gray">3</span></li>
+		</ol>		
+	</div>
+
+	<div class="top">
+		<h2 class="gap-m">Текущая игра: 🎱 <span class="gray">Бильярд</span></h2>
+		<div class="street-fighter gap-s">
+			
+			<img src="counts.png" alt="" style="width: 700px;">
+			<img src="01-left-player.gif" alt="" style="width: 160px;">	
+			<img src="02-right-player.gif" alt="" class="flip" style="width: 180px; margin-left: 400px;">
+			
+		</div>
+	</div>
+
+</body>
+</html>
